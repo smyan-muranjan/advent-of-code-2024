@@ -40,5 +40,6 @@ int main() {
     std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
     part_one(content);
     part_two(content);
+    file.close();
     return 0;
 }
